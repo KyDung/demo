@@ -1,0 +1,64 @@
+body {
+  background: url("https://plus.unsplash.com/premium_photo-1680807869780-e0876a6f3cd5?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  font-family: sans-serif;
+}
+#form-login {
+  padding: 10px 0px;
+  margin: 30vh auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  height: auto;
+  background-color: rgba(190, 209, 222, 0.447);
+  border: 2px solid rgb(205, 189, 170);
+}
+input {
+  width: 80%;
+  height: 5vh;
+}
+button {
+  width: 30%;
+  height: 6vh;
+}
+.thongBaoChuyenTrang {
+  text-align: center;
+  width: 20%;
+  height: 40vh;
+  background-color: rgba(107, 188, 215, 0.954);
+  position: absolute;
+  top: 40vh;
+  left: 40vw;
+  padding-top: 10px;
+  display: none;
+}
+.animationFrame {
+  margin: 0px auto;
+  width: 30vh;
+  height: 30vh;
+  background-color: azure;
+  background: url("../image/capy1.png");
+  background-size: cover;
+}
+/*css nút back*/
+.Back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5vw;
+  height: 5vw;
+  background-color: rgba(253, 249, 243, 0.525);
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+}
+.img-back {
+  width: 70%;
+  height: 70%;
+  background: url("../image/back.png");
+  background-size: cover;
+}
+.Back:hover {
+  background-color: rgba(229, 216, 197, 0.525);
+}

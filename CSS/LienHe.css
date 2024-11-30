@@ -1,0 +1,129 @@
+/*CSS chung và menu*/
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family:'Times New Roman', Times, serif;
+}
+#wrapper {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.4vw;
+}
+#header {
+  background-color: rgb(6, 6, 113);
+  height: 7vh;
+  display: flex;
+  justify-content: flex-start;
+}
+#header ul {
+  list-style-type: none;
+}
+.sub-menu {
+  display: flex;
+  align-items: center;
+}
+.sub-menu a {
+  text-decoration: none;
+}
+.sub-menu:hover {
+  background-color: rgb(57, 57, 190);
+}
+.sub-menu > a {
+  color: aliceblue;
+}
+.sub1 {
+  position: relative;
+}
+.sub1 > .menu-item {
+  flex-direction: column;
+  position: absolute;
+  top: 7vh;
+}
+.menu-item2 {
+  width: 140px;
+  background-color: rgb(6, 6, 113);
+  position: absolute;
+  top: 7vh;
+  left: 40%;
+  display: none;
+}
+.sub2 {
+  height: 40px;
+}
+.menu-item {
+  width: 65%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.menu-item li:hover .menu-item2 {
+  display: block;
+}
+.menu-item3 {
+  width: 140px;
+  background-color: rgb(6, 6, 113);
+  position: absolute;
+  top: 7vh;
+  left: 80%;
+  display: none;
+}
+.sub3 {
+  height: 40px;
+}
+.menu-item2 li:hover .menu-item3 {
+  display: block;
+}
+/*content*/
+#content {
+  display: flex;
+  width: 95%;
+  height: 25vh;
+  align-self: center;
+  align-items: center;
+  justify-content: space-evenly;
+  border-bottom: 2px solid rgb(232, 53, 107);
+}
+.Name-School {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 19vh;
+  margin-right: 10px;
+}
+.slg {
+  color: rgb(165, 0, 0);
+}
+/*Content1*/
+.content1 {
+  height: 80vh;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+/*Footer*/
+#footer {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  justify-content: space-evenly;
+  padding-top: 2%;
+  background-color: rgb(23, 23, 84);
+}
+.LienHe {
+  color: aliceblue;
+  height: 30%;
+  width: 30%;
+}
+.DanhMuc {
+  margin-right: -10%;
+  color: aliceblue;
+  height: 30%;
+  width: 30%;
+}
+.LstDM > li {
+  margin-left: 5%;
+}
+.LstDM > li > a {
+  color: aliceblue;
+  text-decoration: none;
+}
